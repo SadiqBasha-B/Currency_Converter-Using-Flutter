@@ -38,7 +38,7 @@ class _currency_converterState extends State<currency_converter> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-             const Text("Enter Data",
+             const Text("Amount",
               style:TextStyle(
                 color:Color.fromARGB(255, 252, 249, 251),
                 fontSize: 32,
@@ -57,7 +57,7 @@ class _currency_converterState extends State<currency_converter> {
                   
                    color: Color.fromARGB(255, 15, 44, 12)),
                    decoration: const InputDecoration(
-                     hintText: "enter amount",
+                     hintText: "enter amount in USD",
                      hintStyle: TextStyle(
                        color: Colors.black),
                      prefixIcon: Icon(Icons.monetization_on),
